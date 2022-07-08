@@ -355,9 +355,54 @@ button.white {
 
 footer {
     padding: 40px 80px;
+    background-color:#87a2c8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 footer img {
     height: 80px;
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin: 0 0 8px 0;
+}
+
+footer a:hover {
+    color: #088178;
+}
+/*.col h4 {
+    padding-bottom: 15px;
+}
+.col h4,p {
+    padding-top: 18px;
+}*/
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
 }
 
